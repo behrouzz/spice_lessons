@@ -6,6 +6,16 @@ Insert an interval into a double precision window
   left   : Left endpoints of new interval
   left   : Right endpoints of new interval
   window : Input window (must be declared as a double precision SpiceCell)
+
+
+wnvald
+------
+Form a valid double precision window from the contents of a window array.
+
+    :param insize: Size of window.
+    :param n: Original number of endpoints.
+    :param window: Input window.
+    :return: The union of the intervals in the input cell.
 """
 
 
